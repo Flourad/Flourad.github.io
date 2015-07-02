@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My first post
+category: 瞎bb
 tagline: ""
 tags : [first post]
 
