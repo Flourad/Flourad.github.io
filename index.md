@@ -8,7 +8,7 @@ tagline: ""
 {% for post in site.posts %}
 <div class = "card">
 		<div  class = "date_label">
-			<div class="day_month">
+			<div class="day_month" style = "font-size:15px;margin-bottom:10px">
       			{{ post.date | date:"%Y-%m-%d" }}
       			</div>
       		</div> 
