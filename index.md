@@ -9,10 +9,7 @@ tagline: ""
 <div class = "card">
 		<div  class = "date_label">
 			<div class="day_month">
-      			{{ post.date | date:"%m/%d" }}
-      			</div>
-      			<div class="year">
-      			{{ post.date | date:"%Y" }}
+      			{{ post.date | date:"%Y%m/%d" }}
       			</div>
       		</div> 
 		{{ post.content  | | split:'<!--break-->' | first }}
