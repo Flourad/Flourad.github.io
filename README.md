@@ -1,40 +1,60 @@
-# Jekyll-Bootstrap
+# mug
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+Jekyll theme
 
-## Usage
+> :warning:
+  This theme requires ruby and rubygems installed
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+* [x] Clean layout
+* [x] Resposive layout
+* [x] Preprocessor SASS
+* [x] CSS minified
+* [x] Search posts
+* [x] Pagination
+* [x] Syntax highlight
+* [x] Author config
+* [x] Share posts
+* [x] Comments with Disqus
 
-## Version
+---
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+### Start in 4 steps
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+1. Download or clone repo `git clone git@github.com:nandomoreirame/mug.git`
+2. Enter the folder: `cd mug/`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `jekyll serve`
 
-## Contributing
+Access, [localhost:4000/mug](http://localhost:4000/mug)
 
+### Deploy in Github pages in 2 steps
 
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
+1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
+2. Run `rake` or `rake publish` for build and publish on Github
 
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+---
 
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
+### Using Rake tasks
 
-**Jekyll-Bootstrap Documentation Website.**
+* Create a new page: `rake page name="contact.md"`
+* Create a new post: `rake post title="TITLE OF THE POST"`
 
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+---
 
+### Demo and Download
 
-## License
+[Demo](http://nandomoreira.me/mug/)
+[Download](https://github.com/nandomoreirame/mug/archive/master.zip)
 
-[MIT](http://opensource.org/licenses/MIT)
+![mug - free Jekyll theme](/screenshot.png)
+
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
+
+> :warning:
+  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `_layouts/default.html`
+
+Enjoy :yum:
