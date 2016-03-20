@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My first post
-category: 瞎bb
+category: hiahia~
 tagline: ""
 tags : [first post]
 
