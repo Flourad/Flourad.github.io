@@ -1,42 +1,43 @@
-permalink   : /:categories/:year/:title/
-markdown    : kramdown
-highlighter : pygments
+#version
+version: "1.0"
 
-paginate: 2 #6
-comments: true
-paginate_path: "/page/:num"
+permalink: /:year/:month/:day/:title/
 
-source: source
-destination: _site
+# 站点设置
+title: "Guovz"
+email: pzhuwjl@qq.com
+description: "王继林的个人博客"
+keywords: "Guovz"
+
+# 用户信息设置
+weibo_username: Guovz
+github_username: guovz
+
+# Markdown设置
+kramdown:
+  input:  GFM
+  use_coderay: true
+  coderay:
+    coderay_line_numbers:  nil
+
+
+
+# 地址设置
+baseurl: "/jekyll-pithy"
+url: "http://127.0.0.1:4000"
+
+
+# 分页设置
+paginate: 10
+paginate_path: "page/:num"
+
+#scss设置
 sass:
-  sass_dir: _scss
-  style: compressed
+    sass_dir: /assets/stylesheet
+    style: :compressed
 
-cover: /assets/images/default-cover.png
+# duoshuo设置
+# duoshuo_shortname: 
 
-# site title, description, meta_description, meta_keywords
-# Details for the RSS feed generator
-name: Mug Jekyll theme
-title: Mug
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, mug, free, download, SEO, blog, web"
-url: http://nandomoreira.me
-baseurl: "/mug"
-domain_name: nandomoreira.me
-# google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/mug
-disqus_shortname: "fernandomoreira"
-
-author:
-  name      : Fernando Moreira
-  image     : /assets/images/author.jpg
-  email     : nandomoreira.me@gmail.com
-  url       : http://nandomoreira.me
-  facebook  : http://facebook.com/fernando.dev
-  twitter   : http://twitter.com/nandomoreirame
-  instagram : http://instagram.com/nandomoreira.me
-  github    : http://github.com/nandomoreirame
-  linkedin  : http://linkedin.com/in/nandomoreirame
-  bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
-
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+# 百度统计设置
+# baidu_analysis:

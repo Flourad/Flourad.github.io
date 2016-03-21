@@ -1,60 +1,34 @@
-# mug
+基于jekyll博客应用主题
+===
 
-Jekyll theme
+pithy是一款适用于jekyll的博客应用主题，基于bootstrap前端框架开发。本着简约的视觉效果设计，目的是希望博客的浏览者能够更多的看到博客内容。
 
-> :warning:
-  This theme requires ruby and rubygems installed
+使用说明
+===
 
-* [x] Clean layout
-* [x] Resposive layout
-* [x] Preprocessor SASS
-* [x] CSS minified
-* [x] Search posts
-* [x] Pagination
-* [x] Syntax highlight
-* [x] Author config
-* [x] Share posts
-* [x] Comments with Disqus
+本主题是自由，免费，开源的，你可以克隆为新的仓库作为自己的博客。当然，在克隆仓库时为本主题加颗星，在使用时注明power by pithy，那将是对我最大的支持和鼓励。
 
----
+主题效果
+===
+- 首页
+- 
+![首页](http://7xlgu7.com1.z0.glb.clouddn.com/pithy-index.jpg)
 
-### Start in 4 steps
+- 列表
+- 
+![列表](http://7xlgu7.com1.z0.glb.clouddn.com/pithy-list.jpg)
 
-1. Download or clone repo `git clone git@github.com:nandomoreirame/mug.git`
-2. Enter the folder: `cd mug/`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
+- 文章
+- 
+![文章](http://7xlgu7.com1.z0.glb.clouddn.com/pithy-post.jpg)
 
-Access, [localhost:4000/mug](http://localhost:4000/mug)
+反馈
+===
 
-### Deploy in Github pages in 2 steps
+在你浏览或使用本主题时，发现问题或者是有好的建议，希望能够在这里给予反馈。
 
-1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
-2. Run `rake` or `rake publish` for build and publish on Github
+[New Issue](https://github.com/guovz/pithy/issues/new)
 
----
-
-### Using Rake tasks
-
-* Create a new page: `rake page name="contact.md"`
-* Create a new post: `rake post title="TITLE OF THE POST"`
-
----
-
-### Demo and Download
-
-[Demo](http://nandomoreira.me/mug/)
-[Download](https://github.com/nandomoreirame/mug/archive/master.zip)
-
-![mug - free Jekyll theme](/screenshot.png)
-
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
-
-> :warning:
-  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `_layouts/default.html`
-
-Enjoy :yum:
+License
+===
+[MIT License](https://github.com/guovz/pithy/blob/gh-pages/LICENSE.md)
