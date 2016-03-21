@@ -1,43 +1,23 @@
-#version
-version: "1.0"
+title:            Scribble
+description:      A jekyll theme. Because I scribble.
+url:              # Site url, without a slash at the end.
+signoff:          # Your name.
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
-permalink: /:year/:month/:day/:title/
-
-# 站点设置
-title: "Flourad"
-email: 1241991931@qq.com
-description: "Flourad的个人博客"
-keywords: "Flourad"
-
-# 用户信息设置
-weibo_username: 嘟嘟胖小丹
-github_username: Flourad
-
-# Markdown设置
-kramdown:
-  input:  GFM
-  use_coderay: true
-  coderay:
-    coderay_line_numbers:  nil
-
-
-
-# 地址设置
-baseurl: "/jekyll-pithy"
-url: "http://127.0.0.1:4000"
-
-
-# 分页设置
-paginate: 10
-paginate_path: "page/:num"
-
-#scss设置
-sass:
-    sass_dir: /assets/stylesheet
-    style: :compressed
-
-# duoshuo设置
-# duoshuo_shortname: 
-
-# 百度统计设置
-# baidu_analysis:
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          http://muan.co
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/muan
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
