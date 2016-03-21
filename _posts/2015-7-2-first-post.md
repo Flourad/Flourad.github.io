@@ -1,8 +1,12 @@
 ---
 layout: post
-title: First post
-date: 2015-07-02 15:27:31
+title: My first post
+category: 瞎bb
+tagline: ""
+tags : [first post]
+
 ---
+{% include JB/setup %}
 
 # my first post
 ---
